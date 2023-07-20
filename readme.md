@@ -21,26 +21,10 @@ This repository contains a custom Convolutional Neural Network (CNN) implemented
 
 ### Usage
 
-1. Install the required libraries mentioned in the `Requirements` section.
-2. Download the MNIST dataset using the script, or make sure you have the dataset available in the `data` directory.
-3. Run the `train_custom_net.py` script to start the training process:
-
-```bash
-python train_custom_net.py
-```
-
-4. During training, the script will log the training loss and learning rate using TensorBoard. You can visualize the training progress by running TensorBoard:
+During training, the script will log the training loss and learning rate using TensorBoard. You can visualize the training progress by running TensorBoard:
 
 ```bash
 tensorboard --logdir=runs/custom_net_mnist
-```
-
-5. The trained model will be saved in the `models` directory after each epoch.
-
-6. To perform inference on a single image using the trained model, run the `model_inference.py` script and provide the path to the image you want to classify:
-
-```bash
-python model_inference.py
 ```
 
 ### Notes
